@@ -1,0 +1,16 @@
+# Python:
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+dist
+build
+
+# My files:
+.ipynb_checkpoints
+.idea
+*.ipynb
+*.nii.gz
+/archive
+/logs
+/configs
