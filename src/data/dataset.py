@@ -49,7 +49,7 @@ class NPYSlice(Dataset):
 
         # 3d augmentation
         if self._augs:
-            np_src, np_dst, dst_seg = self._augs(
+            np_src, np_dst, np_mask = self._augs(
                 (np_src, np_dst, np_mask), ("image", "image", "mask"))
 
         # choose slices
